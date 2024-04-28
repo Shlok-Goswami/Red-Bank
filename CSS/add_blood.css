@@ -1,0 +1,78 @@
+:root{
+
+    --button_color:#c4584c;
+}
+html,body{
+
+    margin:0px;
+    padding:0px;
+}
+.addblood{
+
+    width:fit-content;
+    background-color:white;
+    margin: 20px auto auto auto;
+    box-shadow: 0px 0px 10px -5px black;
+    padding:1rem;
+}
+table{
+    
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+th,td{
+    
+    padding: 0.3rem;
+    border:3px solid rgba(230, 230, 230, 0.701);
+    
+}
+td{
+    
+    padding: 0.3rem;
+    border:3px solid rgba(230, 230, 230, 0.701);
+}
+th{
+    
+    font-size: 20px;
+    background-color:#c03929;
+    color: white;
+}
+tr{
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+.add{
+    
+    all:unset;
+    cursor: pointer;
+   
+    background-color:  var(--button_color);
+    padding:0.2em 0.4em;
+    color: white;
+    border-radius: 0.35em;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+.amounttext{
+
+    margin:10px auto 30px auto;
+    color: #a94442;
+    font-weight:750;
+    font-size:30px;
+    padding: 2rem 5rem 0rem;
+    border-bottom: 1px solid #a94442 ;
+}
+.button{
+
+    all:unset;
+    cursor: pointer;
+   font-weight: 500;
+    background-color:  var(--button_color);
+    padding:0.2em 0.4em;
+    color: white;
+    border-radius: 0.35em;
+    font-size: 20px;
+    margin-top: 10px;
+}

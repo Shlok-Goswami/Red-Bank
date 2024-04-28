@@ -1,0 +1,70 @@
+/* Footer container */
+.footer {
+  background-color: #333333;
+  padding: 20px;
+  color: white;
+  width: 100vw;
+  position: relative;
+  bottom: 0;
+  z-index: 100;
+}
+
+/* Columns */
+.columns {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Logo and image section */
+.logoAndImg {
+  display: inline-block;
+}
+
+.logoAndImg img {
+  width: 10%; /* Adjust size as needed */
+  vertical-align: middle;
+}
+
+/* Title */
+.logoAndImg h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 2rem;
+  vertical-align: middle;
+  color: #e3440e;
+}
+
+/* Other sections */
+.lookingForBlood,
+.footer_donate {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Links */
+.lookingForBlood a,
+.footer_donate a {
+  display: block;
+  margin-top: 10px;
+  color: red;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.lookingForBlood a:hover,
+.footer_donate a:hover{
+  color: white;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .columns {
+    flex-direction: column;
+  }
+
+  .lookingForBlood,
+  .footer_donate {
+    margin-top: 20px;
+  }
+}
